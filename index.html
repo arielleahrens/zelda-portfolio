@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section id="name-contact">
+            <h2 class="name">Princess Zelda</h2>
+            <p class="contact">&#128379 +1 234-567-8900</p>
+            <p class="contact">&#128386 email@email.com</p>
+        </section>
+        <section id="nav-bar">
+            <div class="nav-link">
+                <a href="#about-me">About Me</a>
+            </div>
+            <div class="nav-link">
+                <a href="#skills">Skills</a>
+            </div>
+            <div class="nav-link">
+                <a href="#projects">Projects</a>
+            </div>
+            <div class="nav-link">
+                <a href="#recommendations">Recommendations</a>
+            </div>
+        </section>
+    </header>
+
+    <main id="portfolio">
+        <div id="home"></div>
+        <section id="about-me">
+            <figure>
+                <img src="./assets/images/Zelda_Twilight_Princess.webp" />
+                <figcaption>
+                    <a href="https://nintendo.fandom.com/wiki/Princess_Zelda/gallery?file=Zelda_Twilight_Princess.png">Image Source</a>
+                </figcaption>
+            </figure>
+            <div id="summary">
+                <h1>Hello! My name is Zelda!</h1>
+                <p>I am the princess of Hyrule. As ruler of my kingdom, 
+                    I work in teams to slay beasts and destroy the Evil King 
+                    Ganondorf. I have experience with the Bow and Arrow, Magic, and 
+                    Telepathy. </p>
+            </div>
+        </section>
+        <hr />
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <p>🪄</p>
+                <p>Magic</p>
+                <p>&#9734&#9734&#9734&#9734&#9734</p>
+            </div>
+            <div class="skill">
+                <p>&#127993</p>
+                <p>Bow and Arrow</p>
+                <p>&#9734&#9734&#9734</p>
+            </div>
+            <div class="skill">
+                <p>&#129504</p>
+                <p>Telepathy</p>
+                <p>&#9734&#9734</p>
+            </div>
+        </section>
+        <hr />
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Leader of the Sages
+                    <ul class="about-project">
+                        <li>Sealed away Ganondorf after he was defeated by Link</li>
+                    </ul>
+                </li>
+                <li>Defeating Calamity Ganon
+                    <ul class="about-project">
+                        <li>Sealed Ganon in Hyrule castle for 100 years</li>
+                    </ul>
+                </li>
+                <li>Light Dragon
+                    <ul class="about-project">
+                        <li>Became the Light Dragon to restore and strengthen the Master Sword</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <hr />
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <div class="rec">
+                <p>"..." - <i>Link</i></p>
+            </div>
+            <div class="rec">
+                <p>"She's pretty cool, I guess." - <i>Midna</i></p>
+            </div>
+            <div class="rec">
+                <p>"Zelda carries the wisdom of many kingdoms." - <i>Impa</i></p>
+            </div>
+        </section>
+        <form id="rec-form">
+            <p>Leave a Recommendation</p>
+            <input id="rec-name" name="name-input" type="text" placeholder="Name" value="">
+            <textarea id="rec-text" name="rec-text" placeholder="Message" rows="10"></textarea>
+            <button type="submit" onclick="leaveReview();">Leave Recommendation</button>
+        </form>
+        <section id="home-icon">
+            <a href="#home"><img src="./assets/images/up-circular-512-1084858861.png" /></a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&#169 2024 Arielle Ahrens</p>
+    </footer>
+</body>
+</html>
